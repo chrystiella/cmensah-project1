@@ -34,6 +34,7 @@ footer {
 	position: fixed;
 	right: 30px;
 	top: 10px;
+	cursor:pointer;
 }
 
 a {
@@ -46,8 +47,11 @@ a {
 	float: left;
 	height: 50px;
 	bottom: 5px;
+	cursor:pointer
 }
-
+#site_info {
+	color: #FFFFFF;
+}
 #newsfeed {
 	max-width: 600px;
 	min-width: 600px;
@@ -56,4 +60,32 @@ a {
 .feedImage {
 	max-width: 150px;
 	max-height: 150px;
+}
+
+#portal_button {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adjust gap as needed */
+}
+
+/* Marquee container */
+.marquee-container {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+/* Marquee text */
+.marquee {
+    display: inline-block;
+    animation: marquee 10s linear infinite;
+}
+
+/* Animation for marquee text */
+@keyframes marquee {
+    from { transform: translateX(100%); }
+    to { transform: translateX(-100%); }
+}
+
+.small-title {
+	font-size: 16px; 
 }

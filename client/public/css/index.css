@@ -8,6 +8,17 @@ body {
   height: 100vh; 
 }
 
+h2 {
+  text-align: center;
+  color:#FFFFFF;
+  right: 0;
+  left: 0;
+  padding: 60px;
+  height: -100px;
+  background-color: #563456;
+  width: auto;
+}
+
 #splash_title {
 	width: 100%;
   font-size: 100px;
@@ -24,6 +35,9 @@ body {
     cursor: pointer;
     text-align: center;
     user-select: none;
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
 
 .background_button {
