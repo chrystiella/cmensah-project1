@@ -10,7 +10,7 @@ body {
 
 h2 {
   text-align: center;
-  color:#FFFFFF;
+  color:#bc9696;
   right: 0;
   left: 0;
   padding: 60px;
@@ -26,6 +26,7 @@ h2 {
   opacity: 0.85;
   text-shadow: 4px 4px 4px rgba(255, 255, 255);
   text-align: center;
+  font-family: 'Gill Sans';
 }
 
 .menu_button {
