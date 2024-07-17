@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
-    function Story(title, body, linkUrl, imageUrl) {
-        this.title = title;
-        this.body = body;
+    function feedItem(title, body, linkUrl, imageUrl) {
+        this.Title = title;
+        this.Body = body;
         this.linkUrl = linkUrl;
         this.imageUrl = imageUrl;
     }

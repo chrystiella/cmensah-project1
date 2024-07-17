@@ -19,7 +19,10 @@ app.get('/feed', function(req, res) {
 
 // API endpoints
 app.get('/api/feed', feedController.getAllFeedItems);
-app.post('/api/feed', feedController.addFeedItem);
-app.delete('/api/feed/:id', feedController.deleteFeedItem);
+app.get('/api/feed/:feedItemID', feedController.getFeedItem);
+app.post('/api/feed', feedController.saveFeedItem);
+app.delete('/api/feed/:feedItemID', feedController.deleteFeedItem);
+app.patch('/api/feed/:feedItemID', feedController.updateFeedItem);
+app.put('/api/feed/:feedItemID', feedController.replaceFeedItem);
 
 app.listen(port, () => console.log(`Listening on port ${port}.`));
