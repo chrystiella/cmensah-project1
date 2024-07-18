@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <h2 class="small-title"><a href="${feedItem.linkUrl}" target="_blank">${feedItem.title}</a></h2>
                     <p>${feedItem.body}</p>
                     <a href="${feedItem.linkUrl}" target="_blank">
-                        <img src="${feedItem.imageUrl}" alt="${feedItem.title}" style="max-width: 15%; height: auto;">
+                        <img src="${feedItem.imageUrl}" alt="${feedItem.title}" style="max-width: 35%; height: auto;">
                     </a>
                     <hr>
                 </div>
