@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/crgmaitner/appProject#readme",
   "dependencies": {
+    "body-parser": "^2.4.0",
     "express": "^4.19.2"
   }
 }

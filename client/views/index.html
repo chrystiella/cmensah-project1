@@ -1,27 +1,157 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A MyMarist Website</title>
-    <link rel="stylesheet" type="text/css" href="/css/global.css">
-    <link rel="stylesheet" type="text/css" href="/css/index.css">
+    <title>Chrystiella Mensah | Cybersecurity Student</title>
+    <meta name="description" content="Portfolio of Chrystiella Mensah, cybersecurity student and campus leader.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="profiles.jpeg">
 </head>
 <body>
-    <header>
-        <h1 id="splash_title"><strong>A MyMarist Website</strong></h1>
-        <p class="menu_button background_button" id="fade_text">Press SPACE BAR to get started</p>
-        <h2>by Chrystiella Mensah</h2>
+    <header class="topbar">
+        <div class="container nav-wrap">
+            <div class="brand">CM</div>
+            <nav class="main-nav" aria-label="Main navigation">
+                <a href="#bio">About</a>
+                <a href="#hobbies">Interests</a>
+                <a href="#achievements">Involvement</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
     </header>
 
-    <footer>
-        <script src="/js/global.js"></script>
-        <script src="/js/index.js"></script>
-        <script src="../server/controllers/feedController.js"></script>
-        <script src="../server/models/feedItem.js"></script>
-        <script src="../server/routes/feedItemRoutes.js"></script>
+    <main>
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <p class="eyebrow">Cybersecurity student</p>
+                    <h1>Chrystiella Mensah</h1>
+                    <p class="subtitle">A. James Clark Scholar • Cybersecurity Student &amp; Analyst</p>
+                    <p class="lead">
+                        I’m a first-year cybersecurity student at Stevens Institute of Technology from Newburgh, New York,
+                        passionate about network defense, emerging technology, and building meaningful skills in the security field.
+                    </p>
+                    <div class="cta-row">
+                        <a class="button primary" href="resume.pdf" target="_blank" rel="noreferrer">Download resume</a>
+                        <a class="button secondary" href="#contact">Let’s connect</a>
+                        <a class="button secondary" href="#bio">Learn more</a>
+                    </div>
+                </div>
 
+                <div class="hero-visual">
+                    <img src="profiles.jpeg" alt="Portrait of Chrystiella Mensah smiling in cap and gown">
+                </div>
+            </div>
+        </section>
 
+        <section id="bio" class="section">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">About</p>
+                    <h2>Driven by curiosity and purpose</h2>
+                </div>
+
+                <div class="bio-card">
+                    <p>
+                        I became interested in cybersecurity through CyberPatriot in high school, where I gained hands-on
+                        experience with network defense and system security. That foundation sparked a deeper interest in how
+                        technology can be protected, improved, and used responsibly.
+                    </p>
+                    <p>
+                        Outside of class, I stay involved in campus life, explore emerging technologies, and continue
+                        learning in ways that strengthen both my technical perspective and leadership skills. I’m especially
+                        motivated by opportunities to build practical knowledge and contribute to communities that value
+                        innovation and inclusion.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="hobbies" class="section alt">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">Interests</p>
+                    <h2>What I enjoy</h2>
+                </div>
+
+                <div class="card-grid three-up">
+                    <article class="info-card">
+                        <h3>Cybersecurity</h3>
+                        <p>Network defense, system security, and learning how to build safer digital environments.</p>
+                    </article>
+                    <article class="info-card">
+                        <h3>Media & Culture</h3>
+                        <p>Movies, TV shows, and stories that spark ideas, conversation, and creativity.</p>
+                    </article>
+                    <article class="info-card">
+                        <h3>Sports</h3>
+                        <p>Basketball, especially the New York Knicks, brings energy, teamwork, and excitement.</p>
+                    </article>
+                    <article class="info-card">
+                        <h3>Gaming</h3>
+                        <p>I enjoy games that challenge strategy, creativity, and problem-solving.</p>
+                    </article>
+                    <article class="info-card">
+                        <h3>Music</h3>
+                        <p>Music is a constant source of inspiration and focus in my daily life.</p>
+                    </article>
+                    <article class="info-card">
+                        <h3>Food & Exploration</h3>
+                        <p>Trying new food spots and discovering local favorites is one of my simple pleasures.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="achievements" class="section">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">Impact</p>
+                    <h2>Leadership and involvement</h2>
+                </div>
+
+                <div class="achievement-list">
+                    <div class="achievement-item">
+                        <span class="badge">01</span>
+                        <p>Opinionist Writer for <a href="https://thestute.com/author/chrystiella-mensah/" target="_blank" rel="noreferrer">The Stute</a></p>
+                    </div>
+                    <div class="achievement-item">
+                        <span class="badge">02</span>
+                        <p>Member of the National Society of Black Engineers (NSBE)</p>
+                    </div>
+                    <div class="achievement-item">
+                        <span class="badge">03</span>
+                        <p>Member of the Black Student Union (BSU)</p>
+                    </div>
+                    <div class="achievement-item">
+                        <span class="badge">04</span>
+                        <p>Served as captain of my CyberPatriot team for three years and helped lead the team to a third-place finish in New York State.</p>
+                    </div>
+                    <div class="achievement-item">
+                        <span class="badge">05</span>
+                        <p>Worked as a VR Game Design Instructor, teaching students about virtual reality and game development.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+        <div class="container footer-wrap">
+            <div>
+                <p class="footer-label">Get in touch</p>
+                <h3>Chrystiella Mensah</h3>
+            </div>
+            <div class="footer-links">
+                <a href="mailto:chrystiellam@gmail.com">Email</a>
+                <a href="https://www.linkedin.com/in/chrystiella/" target="_blank" rel="noreferrer">LinkedIn</a>
+                <a href="https://github.com/chrystiella" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
