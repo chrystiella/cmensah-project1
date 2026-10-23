@@ -6,7 +6,6 @@ const app = express();
 const port = 1337;
 
 app.use(bodyParser.json());
-app.use(express.static('client/views'));
 app.use(express.static('client/public'));
 
 // Serve HTML files
